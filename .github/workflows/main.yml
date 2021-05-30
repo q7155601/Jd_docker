@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
 
       - name: '运行 【自动同步工作流程】'
-        uses: repo-sync/github-sync@v2
+        uses: q7155601/Jd_docker
         if: env.PAT
         with:
           source_repo: "https://github.com/insChow/auto_repo-sync.git"
